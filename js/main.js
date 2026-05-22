@@ -55,7 +55,7 @@ if (menuToggle && navLinks) {
   });
 
   window.addEventListener("resize", () => {
-    if (window.innerWidth > 1180) {
+    if (window.innerWidth > 1380) {
       closeMenu();
     }
   });
