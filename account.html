@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login / Create Account | Wanderly</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar auth-navbar" aria-label="Account navigation">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" role="img">
+            <path class="logo-sun" d="M24 4.5a6 6 0 0 1 6 6h-12a6 6 0 0 1 6-6Z"></path>
+            <path class="logo-wing" d="M7 29.5c8.7-12.6 19.9-16.3 33.7-11.1-7.4 1-13.5 4.6-18.4 10.9 5.4-2.5 11.1-3 17.1-1.5-7.2 6.8-15.4 9-24.7 6.6L9.8 40l1.7-7.4A31 31 0 0 1 7 29.5Z"></path>
+            <path class="logo-route" d="M15 31.8c5.8-5.8 12.1-9.1 18.8-9.8"></path>
+          </svg>
+        </span>
+        <span>Wanderly</span>
+      </a>
+
+      <div class="auth-nav-actions">
+        <a href="index.html">Back Home</a>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+          <span class="theme-icon sun-icon">&#9728;</span>
+          <span class="theme-knob"></span>
+          <span class="theme-icon moon-icon">&#9790;</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="auth-page">
+    <section class="auth-shell" aria-label="Login and create account">
+      <div class="auth-intro">
+        <p class="eyebrow">Member access</p>
+        <h1>Login / Create Account</h1>
+        <p>Save favorite trips, manage bookings, unlock member offers, and continue planning your next holiday from any device.</p>
+        <div class="auth-benefits">
+          <span>Fast bookings</span>
+          <span>Saved travelers</span>
+          <span>Exclusive offers</span>
+        </div>
+      </div>
+
+      <div class="auth-panels">
+        <section class="auth-card login-card">
+          <p class="eyebrow dark">Welcome back</p>
+          <h2>Login details</h2>
+          <form>
+            <label>
+              <span>Email address</span>
+              <input type="email" placeholder="you@example.com" required>
+            </label>
+            <label>
+              <span>Password</span>
+              <input type="password" placeholder="Enter password" required>
+            </label>
+            <div class="form-row">
+              <label class="check-label">
+                <input type="checkbox">
+                <span>Remember me</span>
+              </label>
+              <a href="#">Forgot password?</a>
+            </div>
+            <button type="submit">Login</button>
+          </form>
+        </section>
+
+        <section class="auth-card signup-card">
+          <p class="eyebrow dark">New here?</p>
+          <h2>Create account details</h2>
+          <form>
+            <div class="two-fields">
+              <label>
+                <span>First name</span>
+                <input type="text" placeholder="First name" required>
+              </label>
+              <label>
+                <span>Last name</span>
+                <input type="text" placeholder="Last name" required>
+              </label>
+            </div>
+            <label>
+              <span>Email address</span>
+              <input type="email" placeholder="you@example.com" required>
+            </label>
+            <label>
+              <span>Mobile number</span>
+              <input type="tel" placeholder="+91 98765 43210" required>
+            </label>
+            <label>
+              <span>Create password</span>
+              <input type="password" placeholder="Create password" required>
+            </label>
+            <button type="submit">Create Account</button>
+          </form>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
