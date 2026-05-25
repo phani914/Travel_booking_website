@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Packages | Wanderly</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" role="img">
+            <path class="logo-sun" d="M24 4.5a6 6 0 0 1 6 6h-12a6 6 0 0 1 6-6Z"></path>
+            <path class="logo-wing" d="M7 29.5c8.7-12.6 19.9-16.3 33.7-11.1-7.4 1-13.5 4.6-18.4 10.9 5.4-2.5 11.1-3 17.1-1.5-7.2 6.8-15.4 9-24.7 6.6L9.8 40l1.7-7.4A31 31 0 0 1 7 29.5Z"></path>
+            <path class="logo-route" d="M15 31.8c5.8-5.8 12.1-9.1 18.8-9.8"></path>
+          </svg>
+        </span>
+        <span>Wanderly</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-controls="primary-menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="primary-menu">
+        <form class="nav-search" role="search">
+          <input type="search" placeholder="Search trips" aria-label="Search trips">
+          <button type="submit" aria-label="Search">Search</button>
+        </form>
+        <a href="index.html">Home</a>
+        <a href="packages.html">Packages</a>
+        <a href="booking.html">Booking</a>
+        <a href="index.html#destinations">Destinations</a>
+        <a href="index.html#why-us">Why Us</a>
+        <a href="index.html#reviews">Reviews</a>
+        <a class="account-link" href="account.html">Login / Create Account</a>
+        <a class="nav-cta" href="booking.html">Plan Trip</a>
+      </div>
+
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+        <span class="theme-icon sun-icon">&#9728;</span>
+        <span class="theme-knob"></span>
+        <span class="theme-icon moon-icon">&#9790;</span>
+      </button>
+    </nav>
+  </header>
+
+  <main class="packages-page">
+    <section class="packages-hero">
+      <div>
+        <p class="eyebrow">Curated travel packages</p>
+        <h1>Packages</h1>
+        <p>Choose a ready-made escape or use one as the starting point for a custom route. Every package includes planning support, verified stays, and flexible upgrades.</p>
+      </div>
+      <a class="primary-btn" href="booking.html">Start Booking</a>
+    </section>
+
+    <section class="package-detail-grid" id="packages-preview" aria-label="Available travel packages">
+      <article class="package-detail-card">
+        <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1000&q=82" alt="Bali tropical resort with pool">
+        <div class="package-detail-body">
+          <p class="package-meta">6 days &bull; Beach &bull; Couples</p>
+          <h2>Bali Bliss Escape</h2>
+          <p>Private pool villa, Ubud day tour, sunset dinner, water temple visit, transfers, breakfast, and one guided island experience.</p>
+          <ul>
+            <li>Return flights assistance</li>
+            <li>5 nights premium villa stay</li>
+            <li>Airport transfers and local support</li>
+          </ul>
+          <div class="package-detail-bottom">
+            <strong>&#8377;74,999 <span>per person</span></strong>
+            <a href="booking.html">Book this trip</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="package-detail-card">
+        <img src="https://images.unsplash.com/photo-1527004013197-933c4bb611b3?auto=format&fit=crop&w=1000&q=82" alt="Snowy village in Switzerland">
+        <div class="package-detail-body">
+          <p class="package-meta">7 days &bull; Mountains &bull; Family</p>
+          <h2>Alpine Scenic Route</h2>
+          <p>Swiss lake towns, mountain rail routes, chalet stays, guided viewpoints, breakfast daily, and easy-paced family transfers.</p>
+          <ul>
+            <li>Scenic train pass guidance</li>
+            <li>6 nights hotel and chalet stays</li>
+            <li>Lucerne, Interlaken, and alpine day trips</li>
+          </ul>
+          <div class="package-detail-bottom">
+            <strong>&#8377;1,04,999 <span>per person</span></strong>
+            <a href="booking.html">Book this trip</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="package-detail-card">
+        <img src="https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=1000&q=82" alt="Tokyo street lights at night">
+        <div class="package-detail-body">
+          <p class="package-meta">5 days &bull; City &bull; Culture</p>
+          <h2>Tokyo Culture Sprint</h2>
+          <p>Central hotel, food tour, temple visits, shopping lanes, metro pass, night markets, and an optional Mount Fuji add-on.</p>
+          <ul>
+            <li>4 nights central hotel stay</li>
+            <li>Guided food and culture walk</li>
+            <li>Metro planning and city support</li>
+          </ul>
+          <div class="package-detail-bottom">
+            <strong>&#8377;91,999 <span>per person</span></strong>
+            <a href="booking.html">Book this trip</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="package-detail-card">
+        <img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1000&q=82" alt="Maldives overwater villas and blue lagoon">
+        <div class="package-detail-body">
+          <p class="package-meta">4 days &bull; Island &bull; Luxury</p>
+          <h2>Maldives Lagoon Stay</h2>
+          <p>Beach villa, speedboat transfers, daily breakfast, lagoon time, optional water sports, and candlelit dinner arrangements.</p>
+          <ul>
+            <li>3 nights island resort stay</li>
+            <li>Shared speedboat transfers</li>
+            <li>Honeymoon and celebration upgrades</li>
+          </ul>
+          <div class="package-detail-bottom">
+            <strong>&#8377;66,999 <span>per person</span></strong>
+            <a href="booking.html">Book this trip</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="package-detail-card">
+        <img src="https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1000&q=82" alt="Amalfi Coast sea view in Italy">
+        <div class="package-detail-body">
+          <p class="package-meta">8 days &bull; Heritage &bull; Coast</p>
+          <h2>Italy Amalfi Trail</h2>
+          <p>Rome, Naples, Amalfi Coast, coastal stays, heritage walks, local food stops, ferry planning, and scenic transfer support.</p>
+          <ul>
+            <li>7 nights boutique hotel stays</li>
+            <li>Rome and Amalfi route planning</li>
+            <li>Food, ferry, and viewpoint recommendations</li>
+          </ul>
+          <div class="package-detail-bottom">
+            <strong>&#8377;1,18,999 <span>per person</span></strong>
+            <a href="booking.html">Book this trip</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="package-detail-card">
+        <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1000&q=82" alt="Dubai skyline near water">
+        <div class="package-detail-body">
+          <p class="package-meta">4 days &bull; Desert &bull; City</p>
+          <h2>Dubai Dunes & Skyline</h2>
+          <p>City hotel, desert safari, marina evening, Burj Khalifa visit planning, airport transfers, and shopping time built in.</p>
+          <ul>
+            <li>3 nights premium city hotel</li>
+            <li>Desert safari with dinner</li>
+            <li>Airport transfers and activity add-ons</li>
+          </ul>
+          <div class="package-detail-bottom">
+            <strong>&#8377;52,999 <span>per person</span></strong>
+            <a href="booking.html">Book this trip</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="package-support">
+      <div>
+        <p class="eyebrow dark">Custom planning</p>
+        <h2>Want a different route?</h2>
+        <p>Tell us your dates, budget, travel mood, and must-see places. Wanderly can adjust stays, activities, flights, and pacing before you confirm.</p>
+      </div>
+      <a class="secondary-btn" href="booking.html">Customize Package</a>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
