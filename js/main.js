@@ -83,6 +83,8 @@ if (navSearch) {
       packages: "#packages-preview",
       destination: "#destinations",
       destinations: "#destinations",
+      gallery: "#gallery",
+      photos: "#gallery",
       review: "#reviews",
       reviews: "#reviews",
       support: "#why-us",
